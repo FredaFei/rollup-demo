@@ -3,8 +3,6 @@
  * (c) 2018-2019 freda
  * Released under the MIT License.
  */
-'use strict';
-
 var version = "1.0.0";
 
 var hi = 'hello world!';
@@ -19,4 +17,4 @@ function main () {
   return logA() + hi;
 }
 
-module.exports = main;
+export default main;
